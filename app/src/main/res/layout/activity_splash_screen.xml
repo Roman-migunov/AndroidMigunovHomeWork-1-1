@@ -7,7 +7,6 @@
     tools:context=".SplashScreenActivity">
 
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="190dp"
         android:layout_height="187dp"
         app:layout_constraintBottom_toBottomOf="parent"
