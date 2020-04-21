@@ -10,7 +10,10 @@
         android:id="@+id/imageView"
         android:layout_width="190dp"
         android:layout_height="187dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_lock_power_off"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="272dp" />
+        android:contentDescription="@string/image" />
 </androidx.constraintlayout.widget.ConstraintLayout>
